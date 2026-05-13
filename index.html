@@ -34,7 +34,12 @@
 
 <!-- HERO -->
 <section class="hero" id="home">
-  <div class="hero__bg" style="background-image:url('images/hero.jpg')"></div>
+  <div class="hero__slides">
+    <div class="hero__slide is-active" style="background-image:url('images/hero1.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('images/hero2.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('images/hero3.jpg')"></div>
+    <div class="hero__slide" style="background-image:url('images/hero4.jpg')"></div>
+  </div>
   <div class="hero__overlay"></div>
   <div class="hero__content">
     <img src="images/logo.png" alt="Via Pesca" class="hero__logo" />
@@ -52,7 +57,7 @@
   <div class="container container--narrow center">
     <h2 class="section__title">Tradição, Técnica e Paixão pela Pesca</h2>
     <p class="lead">A Via Pesca consolidou-se como referência regional para pescadores esportivos e amadores. Selecionamos cada vara, molinete e isca pensando em quem vive a pesca como esporte, lazer e estilo de vida — entregando produtos de qualidade comprovada e atendimento especializado.</p>
-    <p class="lead">Mais do que uma loja, somos um ponto de encontro para quem respeita as águas brasileiras. "Pescaria de verdade" é a nossa filosofia, marca e compromisso com você.</p>
+    <p class="lead">Mais do que uma loja, somos um ponto de encontro para quem respeita as águas do nosso nordeste. "Pescaria de verdade" é a nossa filosofia, marca e compromisso com você.</p>
     <a href="#porque" class="link-arrow">Por que nos escolher?</a>
   </div>
 </section>
@@ -61,12 +66,24 @@
 <section class="section section--about reveal" id="porque">
   <div class="container two-col">
     <div class="two-col__media">
-      <img src="images/loja.jpg" alt="Interior da loja Via Pesca" />
+      <div class="about-slider" id="aboutSlider">
+        <div class="about-slider__track">
+          <img src="images/sobre1.jpg" alt="Parede de acessórios e iscas" class="is-active" />
+          <img src="images/sobre2.jpg" alt="Exposição de varas Via Pesca" />
+          <img src="images/sobre3.jpg" alt="Facas e canivetes" />
+          <img src="images/sobre4.jpg" alt="Vitrine de molinetes" />
+          <img src="images/sobre5.jpg" alt="Combos vara e molinete" />
+          <img src="images/sobre6.jpg" alt="Linha de molinetes em destaque" />
+        </div>
+        <button class="about-slider__btn about-slider__btn--prev" type="button" aria-label="Anterior">‹</button>
+        <button class="about-slider__btn about-slider__btn--next" type="button" aria-label="Próximo">›</button>
+        <div class="about-slider__dots"></div>
+      </div>
     </div>
     <div class="two-col__text">
       <h2 class="section__title">Sobre a Via Pesca</h2>
-      <p>Nascemos do sonho de oferecer aos pescadores brasileiros um espaço amplo, bem iluminado e organizado, onde cada equipamento ganha o destaque que merece. Nossa parede de varas é o coração da loja — uma exposição cuidadosa que mostra modelos para pesca leve, média e pesada, lado a lado.</p>
-      <p>Ao longo dos anos, construímos parcerias sólidas com as principais marcas nacionais e internacionais para que você encontre, em um só lugar, produtos de procedência, preço justo e a indicação certa para a sua próxima pescaria.</p>
+      <p>Nascemos do sonho de oferecer aos pescadores brasileiros um espaço profissional, bem iluminado e organizado, onde cada equipamento ganha o destaque que merece. Cada mostruário de varas, até nossa prateleira de iscas, tudo faz nossa loja ser o que é desde 1992 — uma verdadeira exposição cuidadosa que mostra modelos para pesca leve, média e pesada, lado a lado.</p>
+      <p>Ao longo desses anos, construímos parcerias sólidas com as principais marcas nacionais e internacionais para que você encontre, em um só lugar, produtos de procedência, preço justo e a indicação certa para a sua próxima pescaria.</p>
       <p>Embora muito tenha mudado, nossa essência continua a mesma — guiada por valores claros:</p>
       <ul class="values-list">
         <li>Qualidade</li>
@@ -85,15 +102,15 @@
     <div class="pillars">
       <article class="pillar">
         <h3>Curadoria especializada</h3>
-        <p>Cada produto exposto passa pela análise da nossa equipe técnica. Buscamos linhas, anzóis, molinetes e iscas que realmente performam em águas brasileiras — do pesque-pague ao rio bravo da Amazônia.</p>
+        <p>Cada produto exposto passa pela nossa análise técnica. Buscamos linhas, anzóis, molinetes e iscas que realmente performam em águas brasileiras — do pesque-pague ao rio bravo da Amazônia.</p>
       </article>
       <article class="pillar">
         <h3>Localização</h3>
-        <p>Nossa loja conta com ambiente amplo, climatizado e bem iluminado, com exposição diferenciada de varas e grande variedade de equipamentos nas prateleiras — projetada para receber o pescador como ele merece.</p>
+        <p>Nossa loja conta com um ambiente cheio de opções, profissional e bem iluminado, com exposição diferenciada de varas e grande variedade de equipamentos e acessórios nas prateleiras — projetada para receber o pescador como ele merece.</p>
       </article>
       <article class="pillar">
         <h3>Experiência</h3>
-        <p>O sucesso da Via Pesca é fruto da reputação construída dia após dia: atendimento honesto, conhecimento técnico e relacionamento próximo com quem entende — e com quem está começando agora.</p>
+        <p>O sucesso da Via Pesca é fruto da reputação construída dia após dia desde 1992: atendimento honesto, conhecimento técnico e relacionamento próximo com quem entende — e com quem está começando agora.</p>
       </article>
       <article class="pillar">
         <h3>Qualidade comprovada</h3>
@@ -101,7 +118,7 @@
       </article>
       <article class="pillar">
         <h3>Variedade nacional e importada</h3>
-        <p>Do molinete básico ao carretilha de alta performance, das iscas artesanais aos modelos importados — montamos um mix completo para todos os perfis de pescador.</p>
+        <p>Do molinete básico ao carretilha de alta performance, das iscas mais simples aos modelos importados — montamos um mix completo para todos os perfis de pescador.</p>
       </article>
       <article class="pillar">
         <h3>Compromisso com o esporte</h3>
@@ -114,8 +131,8 @@
 <!-- PRODUCTS -->
 <section class="section section--products reveal" id="produtos">
   <div class="container center">
-    <h2 class="section__title">Nossas Categorias</h2>
-    <p class="lead">Um universo completo para a sua pescaria, organizado em seis grandes linhas de produtos.</p>
+    <h2 class="section__title">Temos isso e muito mais!</h2>
+    <p class="lead">Um universo completo para a sua pescaria, aqui está alguns dos nossos itens mais populares.</p>
   </div>
   <div class="container">
     <div class="products" id="products"></div>
@@ -127,7 +144,7 @@
   <div class="banner__bg" style="background-image:url('images/natureza.jpg')"></div>
   <div class="banner__overlay"></div>
   <div class="banner__content">
-    <h2>Onde a água encontra a aventura.</h2>
+    <h2>Onde a água encontra a aventura aqui em Recife.</h2>
     <p>Equipamento certo. Pescaria inesquecível.</p>
   </div>
 </section>
@@ -157,7 +174,7 @@
     <div class="contact-grid">
       <div>
         <h4>WhatsApp</h4>
-        <p><a href="https://wa.me/5581996514078" target="_blank" rel="noopener">(81) 99651-4078</a></p>
+        <p><a href="https://wa.me/5581991706848" target="_blank" rel="noopener">(81) 9 9170-6848</a></p>
       </div>
       <div>
         <h4>Horário</h4>
@@ -165,10 +182,10 @@
       </div>
       <div>
         <h4>Loja física</h4>
-        <p>Ambiente amplo e<br>climatizado para você</p>
+        <p>Ambiente amplo e<br>profissional para você</p>
       </div>
     </div>
-    <a href="https://wa.me/5581996514078" target="_blank" rel="noopener" class="btn-primary">Fale com a gente</a>
+    <a href="https://wa.me/5581991706848" target="_blank" rel="noopener" class="btn-primary">Fale com a gente</a>
   </div>
 </section>
 
@@ -178,7 +195,8 @@
       <img src="images/logo.png" alt="Via Pesca" />
       <p class="footer__tag">Pescaria de verdade.</p>
       <p class="footer__addr">R. Arão Lins de Andrade, 906<br>Prazeres, Jaboatão dos Guararapes - PE<br>CEP 54310-335</p>
-      <p class="footer__addr"><a href="https://wa.me/5581996514078" target="_blank" rel="noopener">(81) 99651-4078</a></p>
+      <p class="footer__addr"><a href="https://wa.me/5581996514078" target="_blank" rel="noopener">(81) 9 9170-6848</a></p>
+      <a class="facebook__link" href="https://www.facebook.com/viapesca072015/?locale=pt_BR"><img src="images/facebook.png" alt=""></a>
     </div>
     <div class="footer__map">
       <iframe
@@ -196,7 +214,7 @@
 </footer>
 
 <!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/5581996514078" target="_blank" rel="noopener" class="wa-float" aria-label="Falar no WhatsApp">
+<a href="https://wa.me/5581991706848" target="_blank" rel="noopener" class="wa-float" aria-label="Falar no WhatsApp">
   <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
     <path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.745.337-.688.703-1.032 1.42-1.045 2.406v.115c-.014.99.282 1.762.85 2.59 1.348 1.961 2.91 3.7 5.146 4.616.342.144.685.27 1.018.402.378.13.722.187 1.06.187.514 0 1.04-.171 1.46-.443.51-.331.872-.793.974-1.418.025-.13.05-.288.05-.444 0-.272-.02-.288-.244-.402-.255-.122-1.395-.692-1.575-.756zM16.176 4C9.55 4 4.16 9.39 4.16 16.016c0 2.106.55 4.176 1.59 6.001l-1.69 6.169 6.32-1.658a11.95 11.95 0 0 0 5.793 1.475h.006c6.624 0 12.014-5.39 12.017-12.016a11.94 11.94 0 0 0-3.522-8.503A11.913 11.913 0 0 0 16.176 4zm0 22.012h-.005a9.972 9.972 0 0 1-5.083-1.392l-.365-.217-3.755.985 1.002-3.66-.237-.378a9.97 9.97 0 0 1-1.527-5.334c.002-5.51 4.487-9.992 10.005-9.992a9.93 9.93 0 0 1 7.071 2.93 9.93 9.93 0 0 1 2.928 7.07c-.002 5.51-4.487 9.989-9.999 9.989z"/>
   </svg>
